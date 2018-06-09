@@ -4,11 +4,15 @@ Search and replace in all files on mac
 
 * `LC_ALL=C find ./ -type f -not -path "./.git/*" -exec sed -i '' -e 's/.parcel_shop./.address./g' {} \;`
 
-# PS tricks
+# Processes
 
 Avoid including grep in the output
 
 * `ps aux | grep '[p]rocess'`
+
+Discover which existing process is bound to a port
+
+* `lsof -nP -iTCP:8080`
 
 # Terminal
 

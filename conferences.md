@@ -11,6 +11,7 @@ Meetups tend to be community led evening affairs, with one or two talks plus dis
 * Leeds Tester Gathering
 * Agile Leeds
 * Agile Manchester
+* Ministry of Testing Leeds
 
 ## Mini conferences
 
