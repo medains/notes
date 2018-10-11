@@ -43,3 +43,9 @@ aws ssm put-parameter --profile PROFILE --name '/PATH/KEY' --value 'VALUE' --typ
 aws ssm get-parameters-by-path --profile PROFILE --path '/some-path/'
 ```
 
+### Query Dynamodb objects
+
+```bash
+aws dynamodb scan --profile PROFILE  --table-name TABLE --filter-expression "field.field = :id" --expression-attribute-values '{":id":{"S":"VALUE"}}'
+```
+

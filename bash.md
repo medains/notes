@@ -23,3 +23,13 @@ Clear terminal (including iterm2 scrollback)
 # SSH tunnelling
 
 * `ssh -fN -L ${LOCALPORT}:${REMOTEHOST}:${REMOTEPORT} ${USER}@${TUNNELHOST}`
+
+# Sequence generation
+
+Dates (OSX)
+
+* `seq 0 30 | xargs -I {} date -v1d -v7m -v18y -v+{}d +'%d/%m/%Y'`
+
+Linux version
+
+* `seq 0 30 | xargs -I {} date -d "1 July 2018 +{} days" +'%d/%m/%Y'`

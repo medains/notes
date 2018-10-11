@@ -11,6 +11,9 @@ Redis-cli (auto-connects to localhost)
 * `docker run -it --rm --entrypoint /bin/sh goodsmileduck/redis-cli`
 * `redis-cli -h 172.17.0.1`
 
+Visualise docker image tree (--tree on images is deprecated)
+ 
+* `docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nate/dockviz images -t`
 
 ## Debugging a container
 
