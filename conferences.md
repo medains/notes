@@ -27,6 +27,7 @@ Meetups tend to be community led evening affairs, with one or two talks plus dis
 * Digital Leeds @DigiLeeds
 * Yorkshire Digital @YorksDigital
 * Leeds PHP @leedsphp
+* BSides Leeds @BSidesLeeds
 
 ## Mini conferences
 
@@ -41,3 +42,4 @@ Meetups tend to be community led evening affairs, with one or two talks plus dis
 * Nordic Test Days
 * Teshbash (manchester, dublin)
 * GotoCon (Berlin, Chicago, Amsterdam)
+* InfoQ QCon (London, San Francisco, New York)
